@@ -54,8 +54,22 @@ img {
     padding: 0 4%;
 }
 
+/*큰 배경 이미지 */
+.big-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* HOME
 ---------------------------*/
+#home {
+    background-image: url(../images/main-bg.jpg);
+    min-height: 100vh;
+}
+#home .page-title {
+    text-transform: none;
+}
 
 .home-content {
     text-align: center;
